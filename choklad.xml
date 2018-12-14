@@ -14,19 +14,22 @@
     </choklad>
 
     <presentforpackning>
-        <halsning></halsning>
+        <halsning>happy birthday!</halsning>
+        <halsning>sorry for your loss</halsning>
+        <halsning>i love you</halsning>
     </presentforpackning>
     
     <fraktalternativ>
         <adress>
-            <gatuadress></gatuadress>
-            <postNr></postNr>
-            <land></land>
+            <gatuadress>hoppgatan 23</gatuadress>
+            <postNr>45678</postNr>
+            <land>sverige</land>
         </adress>
-        
         <fraktbolag>
             <leverandSammaDag>true</leverandSammaDag>
+            <leverandSammaDag>false</leverandSammaDag>
+            <leveransImorgon>true</leveransImorgon>
+            <leveransImorgon>false</leveransImorgon>
         </fraktbolag>
     </fraktalternativ>
-        
 </paket>
