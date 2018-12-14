@@ -18,22 +18,14 @@
         }
     ],
    
-    "bestalldaPaket": [
-        {
-        "paket": [
+    "paket": [
             {
             "choklad": 123,
-            "presentforpackning": [
-                {
-                "hälsning": "Hello"
-                }
-            ],
+            "presentforpackning": "",
             "fraktalternativ": ""
             }
-        ]
-        }
-    ],
-
+        ],
+    
     "fraktBolag": [
         {
             "fraktBolag": "Postnord",
