@@ -1,28 +1,65 @@
-<paket>
-    <choklad name="123">
-        <kakao>light</kakao>
-        <mjolk>cow</mjolk>
-        <utfyllnad>blueberry</utfyllnad>
-    </choklad>
+<databas>
+    <chokladsorter>
+        <choklad name="123">
+            <kakao>light</kakao>
+            <mjolk>cow</mjolk>
+            <utfyllnad>blueberry</utfyllnad>
+        </choklad>
 
-    <choklad name="456">
-        <kakao>dark</kakao>
-        <mjolk>goat</mjolk>
-        <utfyllnad>raspberry</utfyllnad>
-    </choklad>
+        <choklad name="456">
+            <kakao>dark</kakao>
+            <mjolk>goat</mjolk>
+            <utfyllnad>raspberry</utfyllnad>
+        </choklad>
 
-    <choklad name="789">
-        <kakao>medium</kakao>
-        <mjolk>almond</mjolk>
-        <utfyllnad>liqourice</utfyllnad>
-    </choklad>
+        <choklad name="789">
+            <kakao>medium</kakao>
+            <mjolk>almond</mjolk>
+            <utfyllnad>liqourice</utfyllnad>
+        </choklad>
+    </chokladsorter> 
 
-    <presentforpackning>
-        <halsning>happy birthday!</halsning>
-        <halsning>sorry for your loss</halsning>
-        <halsning>i love you</halsning>
-        <noHalsning></noHalsning>
-    </presentforpackning>
+    <beställdapaket>
+        <paket>
+            <choklad></choklad>
+            <presentforpackning>
+                <hälsning>Hello</hälsning>
+            </presentforpackning>
+            <fraktalternativ></fraktalternativ>
+        </paket>
+    </beställdapaket>
+
+    <olikafraktbolag>
+        <fraktbolag name="postNord">
+            <leverandSammaDag>true</leverandSammaDag>
+            <leveransSammaDag>false</leveransSammaDag>
+            <pris>49kr</pris>
+        </fraktbolag>
+
+        <fraktbolag name="schenker">
+            <leveransImorgon>true</leveransImorgon>
+            <leveransImorgon>false</leveransImorgon>
+            <pris>gratis</pris>
+        </fraktbolag>
+    </olikafraktbolag>
+
+    <olikafraktalternativ>
+        <fraktalternativ>
+            <fraktbolag>Postnord</fraktbolag>
+            <adress></adress>
+        </fraktalternativ>
+    </olikafraktalternativ>
+
+
+
+
+
+
+    <presentforpackningar>
+        <presentforpackning>
+            <halsning></halsning>
+        </presentforpackning>   
+    </presentforpackningar>
     
     <fraktalternativ>
         <adress>
@@ -44,4 +81,4 @@
             <pris>gratis</pris>
         </fraktbolag>
     </fraktalternativ>
-</paket>
+</databas>
