@@ -1,13 +1,17 @@
 <paket>
-    <choklad>
+    <choklad name="123">
         <kakao>light</kakao>
         <mjolk>cow</mjolk>
         <utfyllnad>blueberry</utfyllnad>
+    </choklad>
 
+    <choklad name="456">
         <kakao>dark</kakao>
         <mjolk>goat</mjolk>
         <utfyllnad>raspberry</utfyllnad>
+    </choklad>
 
+    <choklad name="789">
         <kakao>medium</kakao>
         <mjolk>almond</mjolk>
         <utfyllnad>liqourice</utfyllnad>
@@ -26,18 +30,14 @@
             <land>sverige</land>
         </adress>
 
-        <fraktbolag>
-            <bolag="postNord">
-                <leverandSammaDag>true</leverandSammaDag>
-                <leveransSammaDag>false</leveransSammaDag>
-            </bolag>
+        <fraktbolag name="postNord">
+            <leverandSammaDag>true</leverandSammaDag>
+            <leveransSammaDag>false</leveransSammaDag>
         </fraktbolag>
 
-        <fraktbolag>
-            <bolag name="schenker"></bolag>
-                <leveransImorgon>true</leveransImorgon>
-                <leveransImorgon>false</leveransImorgon>
-            </bolag>
+        <fraktbolag name="schenker">
+            <leveransImorgon>true</leveransImorgon>
+            <leveransImorgon>false</leveransImorgon>
         </fraktbolag>
     </fraktalternativ>
 </paket>
