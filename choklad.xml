@@ -50,6 +50,15 @@
         </fraktalternativ>
     </olikafraktalternativ>
 
+    <olikaadresser>
+        <adress id="1">
+            <gatuadress>blahavägen 1</gatuadress>
+            <postnummer>45678</postnummer>
+            <postort>fryyyk</postort>
+            <land>sverige</land>
+        </adress>
+    </olikaadresser>
+
 
 
 
