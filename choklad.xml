@@ -1,0 +1,7 @@
+<paket>
+    <choklad>Light Chocolate</choklad>
+    <presentforpackning>rosa box</presentforpackning>
+    <fraktalternativ>Hämtas i butik</fraktalternativ>
+        <adress></adress>
+        <fraktbolag></fraktbolag>
+</paket>
