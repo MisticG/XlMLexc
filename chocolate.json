@@ -1,0 +1,64 @@
+{
+    "chokladsorter": [
+        {
+            "choklad": 123,
+            "kakao": "light",
+            "mjolk": "cow",
+            "utfyllnad": "blueberry"
+        },{
+            "choklad": 456,
+            "kakao": "dark",
+            "mjolk": "goat",
+            "utfyllnad": "raspberry"   
+        },{
+            "choklad": 789,
+            "kakao": "medium",
+            "mjolk": "almond",
+            "utfyllnad": "liqourice"  
+        }
+    ],
+   
+    "bestalldaPaket": [
+        {
+        "paket": [
+            {
+            "choklad": 123,
+            "presentforpackning": [
+                {
+                "hälsning": "Hello"
+                }
+            ],
+            "fraktalternativ": ""
+            }
+        ]
+        }
+    ],
+
+    "fraktBolag": [
+        {
+            "fraktBolag": "Postnord",
+            "leveransSammadag": true,
+            "pris": "49kr"
+        },{
+            "fraktBolag": "Schenker",
+            "leveransSammadag": false,
+            "pris": "49kr" 
+        }
+    ],
+    
+    "fraktAlternativ": [
+        {
+            "fraktBolag": "",
+            "adress": ""
+        }
+    ],
+
+    "adresser": [
+        {
+            "gatuadress": "",
+            "postnummer": "",
+            "postort":"",
+            "land": ""
+        }
+    ]
+}
