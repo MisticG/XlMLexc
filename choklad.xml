@@ -1,8 +1,16 @@
 <paket>
     <choklad>
-        <kakao></kakao>
-        <mjolk></mjolk>
-        <utfyllnad></utfyllnad>
+        <kakao>light</kakao>
+        <mjolk>cow</mjolk>
+        <utfyllnad>blueberry</utfyllnad>
+
+        <kakao>dark</kakao>
+        <mjolk>goat</mjolk>
+        <utfyllnad>raspberry</utfyllnad>
+
+        <kakao>medium</kakao>
+        <mjolk>almond</mjolk>
+        <utfyllnad>liqourice</utfyllnad>
     </choklad>
 
     <presentforpackning>
