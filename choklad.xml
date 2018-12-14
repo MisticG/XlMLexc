@@ -21,23 +21,27 @@
         <halsning>happy birthday!</halsning>
         <halsning>sorry for your loss</halsning>
         <halsning>i love you</halsning>
+        <noHalsning></noHalsning>
     </presentforpackning>
     
     <fraktalternativ>
         <adress>
             <gatuadress>adress</gatuadress>
             <postNr>postnummer</postNr>
+            <postOrt>porstort</postOrt>
             <land>sverige</land>
         </adress>
 
         <fraktbolag name="postNord">
             <leverandSammaDag>true</leverandSammaDag>
             <leveransSammaDag>false</leveransSammaDag>
+            <pris>49kr</pris>
         </fraktbolag>
 
         <fraktbolag name="schenker">
             <leveransImorgon>true</leveransImorgon>
             <leveransImorgon>false</leveransImorgon>
+            <pris>gratis</pris>
         </fraktbolag>
     </fraktalternativ>
 </paket>
