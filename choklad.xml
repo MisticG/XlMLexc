@@ -39,7 +39,5 @@
                 <leveransImorgon>false</leveransImorgon>
             </bolag>
         </fraktbolag>
-
-
     </fraktalternativ>
 </paket>
