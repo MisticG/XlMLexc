@@ -1,7 +1,24 @@
 <paket>
-    <choklad>Light Chocolate</choklad>
-    <presentforpackning>rosa box</presentforpackning>
-    <fraktalternativ>Hämtas i butik</fraktalternativ>
-        <adress></adress>
-        <fraktbolag></fraktbolag>
+    <choklad>
+        <kakao></kakao>
+        <mjolk></mjolk>
+        <utfyllnad></utfyllnad>
+    </choklad>
+
+    <presentforpackning>
+        <halsning></halsning>
+    </presentforpackning>
+    
+    <fraktalternativ>
+        <adress>
+            <gatuadress></gatuadress>
+            <postNr></postNr>
+            <land></land>
+        </adress>
+        
+        <fraktbolag>
+            <leverandSammaDag>true</leverandSammaDag>
+        </fraktbolag>
+    </fraktalternativ>
+        
 </paket>
